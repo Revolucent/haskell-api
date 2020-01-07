@@ -1,6 +1,6 @@
 module Main where
 
-import Lib
+import Network.HTTP.Api
 
 main :: IO ()
-main = someFunc
+main = print "ok" 

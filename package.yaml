@@ -20,7 +20,16 @@ extra-source-files:
 description:         Please see the README on GitHub at <https://github.com/githubuser/api#readme>
 
 dependencies:
+- aeson
 - base >= 4.7 && < 5
+- bytestring
+- exceptions
+- http-client
+- mtl
+- req
+- string-conversions
+- text
+- uuid
 
 library:
   source-dirs: src
